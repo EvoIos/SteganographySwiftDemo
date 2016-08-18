@@ -12,6 +12,9 @@
 		451301D41D6605A900295F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451301D21D6605A900295F59 /* Main.storyboard */; };
 		451301D61D6605A900295F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451301D51D6605A900295F59 /* Assets.xcassets */; };
 		451301D91D6605A900295F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451301D71D6605A900295F59 /* LaunchScreen.storyboard */; };
+		451301E31D66074500295F59 /* xiaolan.png in Resources */ = {isa = PBXBuildFile; fileRef = 451301E11D66074500295F59 /* xiaolan.png */; };
+		451301E41D66074500295F59 /* qushui.png in Resources */ = {isa = PBXBuildFile; fileRef = 451301E21D66074500295F59 /* qushui.png */; };
+		451301E61D66076600295F59 /* RGB32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451301E51D66076600295F59 /* RGB32.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		451301D51D6605A900295F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451301D81D6605A900295F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451301DA1D6605A900295F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451301E11D66074500295F59 /* xiaolan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaolan.png; sourceTree = "<group>"; };
+		451301E21D66074500295F59 /* qushui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qushui.png; sourceTree = "<group>"; };
+		451301E51D66076600295F59 /* RGB32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGB32.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +60,12 @@
 		451301CD1D6605A900295F59 /* SteganographySwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				451301E01D6605BC00295F59 /* Supporting */,
+				451301E51D66076600295F59 /* RGB32.swift */,
 				451301D01D6605A900295F59 /* ViewController.swift */,
 				451301D21D6605A900295F59 /* Main.storyboard */,
+				451301E11D66074500295F59 /* xiaolan.png */,
+				451301E21D66074500295F59 /* qushui.png */,
+				451301E01D6605BC00295F59 /* Supporting */,
 			);
 			path = SteganographySwiftDemo;
 			sourceTree = "<group>";
@@ -132,6 +141,8 @@
 			files = (
 				451301D91D6605A900295F59 /* LaunchScreen.storyboard in Resources */,
 				451301D61D6605A900295F59 /* Assets.xcassets in Resources */,
+				451301E41D66074500295F59 /* qushui.png in Resources */,
+				451301E31D66074500295F59 /* xiaolan.png in Resources */,
 				451301D41D6605A900295F59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451301E61D66076600295F59 /* RGB32.swift in Sources */,
 				451301D11D6605A900295F59 /* ViewController.swift in Sources */,
 				451301CF1D6605A900295F59 /* AppDelegate.swift in Sources */,
 			);
